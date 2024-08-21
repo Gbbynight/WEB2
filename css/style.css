@@ -68,7 +68,6 @@ body{
 
 .item-2{
     grid-area: sidebar;
-    background: #EEA964;
 }
 
 .item-2 img{
@@ -84,7 +83,6 @@ body{
 
 .item-3 img.inside-out{
     width: 100%;
-    height: 100%;
     padding-top: 10px;
 }
 
