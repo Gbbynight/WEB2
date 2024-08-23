@@ -187,3 +187,33 @@ body{
     padding-right: 15px;
 }
 
+/* Khiem's CSS */
+.nxk{
+    color: white;
+}
+
+.highlight{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nxk>div>p>a{
+    text-decoration: none;
+    color:aqua;
+}
+
+.story h2{
+    text-align: center;
+}
+
+.element{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00FF7F;
+}
+
+.list li:nth-child(3) a{
+    text-decoration: none;
+    color:aqua;
+}
