@@ -150,17 +150,21 @@ body{
     text-align: center;
 }
 
-<<<<<<< HEAD
-.reviews .review-item {
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(226, 228, 224);
+.review-table .head{
+    background: #AA2E2A;
+    font-weight: 500;
+    font-size: 25px;
 }
 
-.pcr {
-    background-color: #1e1e1e;
-    color: #eaeaea;
-    font-family: Arial, sans-serif;
+/* vu's CSS */
+.vtm h2 {
+    color: white;
+    font-family:"Montserrat", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background:#AA2E2A ;
 }
 
 .bang {
@@ -171,40 +175,53 @@ body{
 }
 
 .db {
-    background-color: #444;
+    background-color:#AA2E2A;
     font-size: 18px;
     text-transform: uppercase;
     padding: 15px;
     text-align: left;
     color: #eaeaea;
+    font-family:  "Montserrat Alternates", sans-serif;
 }
 
 .tb {
-    border: 1px solid #444;
     padding: 10px;
     font-size: 16px;
     text-align: left;
     color: #fff;
+    font-family:  "Montserrat Alternates", sans-serif;
 }
 
 .td {
     text-align: center;
     color: #fff;
+    font-family:  "Montserrat Alternates", sans-serif;
 }
 
 .lkg {
-    background-color: #333;
+    background-color: #AA2E2A;
     padding: 30px;
     border-radius: 10px;
-    max-width: 600px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.lkg h1{
+    font-family:"Montserrat", sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.lkg p{
+    font-family:  "Montserrat Alternates", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.lkg a{
+    color: white;
+    font-family:  "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 
-=======
-.review-table .head{
-    background: #AA2E2A;
-    font-weight: 500;
-    font-size: 25px;
-}
->>>>>>> origin/pthao
