@@ -1,87 +1,156 @@
+
 body{
     background: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-
-
 /* Khiem's CSS */
 .nxk{
     color: white;
 }
 
+.nxk img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nxk h1{
+    color: white;
+    font-family:"Montserrat", sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.nxk h2{
+    color: white;
+    font-family:"Montserrat", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background:#AA2E2A ;
+}
+
+.nxk p{
+    font-family:"Montserrat Alternates", sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
 .highlight{
-    color: blue;
+    color: #AA2E2A;
     font-weight: bold;
     font-style: italic;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.info ul li{
+    font-family:"Montserrat Alternates", sans-serif;
+    font-size: 20px;
 }
 
 .nxk>div>p>a{
     text-decoration: none;
-    color:aqua;
+    color:#AA2E2A;
+    font-weight: 500;
 }
 
 .story h2{
     text-align: center;
 }
 
-.element{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #00FF7F;
-    font-size: 45px;
+.story ul li{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 20px;
 }
 
 .list li:nth-child(3) a{
     text-decoration: none;
-    color:aqua;
+    color:aquamarine ;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-.review-section p {
-    margin-bottom: 15px;
-    background-color: #222;
-    padding: 10px;
-    border-radius: 5px;
-    word-wrap: break-word; 
-    white-space: normal; 
+/* thao's CSS */
+.npt h2{
+    color: white;
+    font-family:"Montserrat", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background:#AA2E2A ;
 }
 
-.Bảoreviewgame {
-    color: white; 
+.npt h3{
+    color: #AA2E2A;
+    font-family:"Montserrat", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 20px;
 }
 
-.Bảoreviewgame .game-feeling {
-    color: #00FF7F;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px; 
+.npt ul li{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* bao's CSS */
+.ntgb h2{
+    color: white;
+    font-family:"Montserrat", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background:#AA2E2A ;
+}
+
+.ntgb ul li{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
 }
 
 .anhgameplayvacutsences {
     column-count: 3;
-    column-gap: 10px;
+    column-gap: 20px;
 }
 
 .anhgameplayvacutsences .item {
-    break-inside: avoid;
     margin-bottom: 10px;
 }
 
 .anhgameplayvacutsences img { 
     width: 100%;
-    height: auto;
     display: block;
     border-radius: 5px;
 }
 
 .reviews .comment-title{
-    text-align: center;
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #00FF7F;  
+    color: #AA2E2A;
+    font-family:"Montserrat", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 20px;
 }
 
+.reviews tr td{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+<<<<<<< HEAD
 .reviews .review-item {
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -132,3 +201,10 @@ body{
 }
 
 
+=======
+.review-table .head{
+    background: #AA2E2A;
+    font-weight: 500;
+    font-size: 25px;
+}
+>>>>>>> origin/pthao
