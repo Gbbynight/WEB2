@@ -1,0 +1,91 @@
+body{
+    background: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/* Khiem's CSS */
+.nxk{
+    color: white;
+}
+
+.highlight{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nxk>div>p>a{
+    text-decoration: none;
+    color:aqua;
+}
+
+.story h2{
+    text-align: center;
+}
+
+.element{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00FF7F;
+    font-size: 45px;
+}
+
+.list li:nth-child(3) a{
+    text-decoration: none;
+    color:aqua;
+}
+
+.review-section p {
+    margin-bottom: 15px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word; 
+    white-space: normal; 
+}
+
+.Bảoreviewgame {
+    color: white; 
+}
+
+.Bảoreviewgame .game-feeling {
+    color: #00FF7F;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px; 
+}
+
+.anhgameplayvacutsences {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.anhgameplayvacutsences .item {
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+
+.anhgameplayvacutsences img { 
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.reviews .comment-title{
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00FF7F;  
+}
+
+.reviews .review-item {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(226, 228, 224);
+}
+
+
