@@ -110,82 +110,8 @@ body{
     color: #eaeaea;
 }
 
-<<<<<<< HEAD
 .tb {
     border: 1px solid #444;
-=======
-.item-1{
-    grid-area: header;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.nav ul{
-    list-style: none;
-    display: flex;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.nav ul li a{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-}
-
-.item-2{
-    grid-area: sidebar;
-}
-
-.item-2 img{
-    width: 100%;
-    height: 50%;
-}
-
-.item-3{
-    grid-area: content;
-    display: grid;
-    grid-template-rows: repeat(2,1fr);
-}
-
-.item-3 img.inside-out{
-    width: 100%;
-    padding-top: 10px;
-}
-
-.tenphim{
-    color: #EEA964;
-    padding-left: 10px;
-    font-size: 70px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content: center;
-}
-
-.item-3 p{
-    font-size: 25px;
-    padding-left: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.item-4{
-    grid-area: comment;
-}
-
-.comment{
-    color: #EEA964;
-    padding-left: 10px;
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content: center;
-}
-
-.bangcomment{
->>>>>>> cc066ead15a0f6fdfd91a6df68952749b04e2c45
     padding: 10px;
     font-size: 16px;
     text-align: left;
@@ -204,5 +130,3 @@ body{
     max-width: 600px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
-
-
