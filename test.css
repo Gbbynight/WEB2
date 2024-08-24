@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
 }
 
-/* CSSbyBảo */
+
 .content .gioithieutrang {
     color: white;
     display: flex;
@@ -111,52 +111,7 @@ body {
     margin: 10px 0;
 }
 
-.item-4 {
-    grid-area: comment;
-    margin-top: 20px;
-}
 
-.comment {
-    color: #EEA964;
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.bangcomment {
-    padding: 10px;
-    width: 100%;
-}
-
-.bangcomment .tieude {
-    color: #EEA964;
-    border: 2px solid white;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 10px;
-}
-
-.bangcomment .tieude td {
-    padding: 15px;
-    text-align: center;
-}
-
-.bangcomment .nguoi1,
-.bangcomment .nguoi2,
-.bangcomment .nguoi3 {
-    border: 2px solid white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-}
-
-.bangcomment .nguoi1 td,
-.bangcomment .nguoi2 td,
-.bangcomment .nguoi3 td {
-    padding: 15px;
-    text-align: center;
-}
 
 .item-5 {
     grid-area: footer;
@@ -170,5 +125,51 @@ body {
     justify-content: flex-start;
     padding-left: 15px;
     font-size: 25px;
+}
+/* CSSbyBảo */
+.review-section p {
+    margin-bottom: 15px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word; 
+    white-space: normal; 
+}
+
+.Bảoreviewgame {
+    color: white; 
+}
+
+.Bảoreviewgame .game-feeling {
+    color: chartreuse;
+}
+
+.anhgameplayvacutsences {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.anhgameplayvacutsences .item {
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+
+.anhgameplayvacutsences img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.reviews .comment-title{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00FF7F;
+}
+
+.reviews .review-item {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(226, 228, 224);
 }
 
